@@ -12,6 +12,9 @@ exports.getip = function (req) {
 };
 
 function checkip(ip) {
+    if (ip === undefined) {
+        return false;
+    }
     var valid = new ipv4(ip).isValid();
     return valid;
 }
