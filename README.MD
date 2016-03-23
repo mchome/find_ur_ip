@@ -1,6 +1,6 @@
 # find_ur_ip
 
-#### A nodejs package for finding your ip address & your ip location.
+#### express 小习作
 
 POST body support www-form-urlencoded & application/json.
 
