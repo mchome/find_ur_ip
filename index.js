@@ -10,7 +10,7 @@ var router = express.Router();
 routes(router);
 app.use('/api', router);
 
-var server = app.listen(8080, '192.168.1.11', function () {
+var server = app.listen(8080, '0.0.0.0', function () {
     var host = server.address().address;
     var port = server.address().port;
 
